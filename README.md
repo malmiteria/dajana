@@ -46,3 +46,19 @@ which in english translates to this list or criteria (translated on reverso):
 
 
 I will also mostly back my listing of use cases on my real life experience as a developper, using knowledge managment interview techniques.
+
+
+## The use case i'm faced with as a web developper, or the things i do and how i go about it
+
+ - add / remove / modify some behavior of the program i'm writing, by adding, removing, modifying code, or adding appropriate libraries
+ - try to understand what the code does today, by reading it, running it myself, or asking coworker to explain their codes
+ - try to make sure i don't accidentally remove features / reintroduce bugs, by adding automated tests on those features and bugs (the behavior of the program i know i want or don't want), when i work on those bug / features
+ - catch bugs, by adding tools such as sentry to collect and display crash reports
+ - git
+ - ensure everyone (even new hires) could read / understand my code, with minimal interaction on my part, by refactoring my code, meaning, in this order :
+   - properly naming variables / functions / objects in a way that explains what they do or don't. Hopefully, this means when someone else tries to understand my code, they can read it, and it's enough. No need to run the code (or the tests), or to ask me what it means.
+   - adding comments (even tho it's easy to forget to update those once the feature changes, so they aren't 100% accurate)
+   - writing docs (even tho, not everyone always read it or know where to find it)
+ - refactor so i can add features / reove bugs in the future
+ - allow myself to work and break everything without breaking anything for users
+ - try to reduce time and effort needed to do any common and repeatable tasks (install the program, run it, test it, and so on) by scripting those actions.
